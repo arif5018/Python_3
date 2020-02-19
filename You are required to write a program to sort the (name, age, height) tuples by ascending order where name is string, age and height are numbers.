@@ -1,0 +1,3 @@
+info=input()
+info_list=[case.split(',') for case in info.split( ' ')]
+print(sorted(info_list))

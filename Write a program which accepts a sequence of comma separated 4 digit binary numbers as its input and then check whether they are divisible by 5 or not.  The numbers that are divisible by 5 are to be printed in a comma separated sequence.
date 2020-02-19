@@ -1,0 +1,10 @@
+lst = []
+x = input('Enter the numbers: ')
+num = x.split(',')
+print ('Sample Data :',num)
+for i in num:
+    if int(i) % 5 == 0:
+        lst.append(i)
+
+print ('Expected Output',lst)
+
